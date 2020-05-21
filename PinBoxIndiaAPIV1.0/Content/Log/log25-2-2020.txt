@@ -1,0 +1,34 @@
+
+2/25/2020 17:35:22
+Method Name: getReminderProductList | Contoller Name: Admin Controller
+:2/25/2020 17:35:22|System.InvalidOperationException: ExecuteReader: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at PinBoxIndiaAPIV1._0.DAL.DataLib.GetStoredProcData(Connection connType, String strSP, SqlParameter[] arrSPParams) in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\DAL\DataLib.cs:line 127
+   at PinBoxIndiaAPIV1._0.DAL.AdminDAL.GeProductList() in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\DAL\AdminDAL.cs:line 106
+   at PinBoxIndiaAPIV1._0.Controllers.AdminController.GetReminderProductList() in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\Controllers\AdminController.cs:line 257-
+
+
+2/25/2020 17:37:47
+Method Name: getReminderProductList | Contoller Name: Admin Controller
+:2/25/2020 17:37:47|System.InvalidOperationException: ExecuteReader: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at PinBoxIndiaAPIV1._0.DAL.DataLib.GetStoredProcData(Connection connType, String strSP, SqlParameter[] arrSPParams) in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\DAL\DataLib.cs:line 127
+   at PinBoxIndiaAPIV1._0.DAL.AdminDAL.GeProductList() in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\DAL\AdminDAL.cs:line 106
+   at PinBoxIndiaAPIV1._0.Controllers.AdminController.GetReminderProductList() in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\Controllers\AdminController.cs:line 257-
+

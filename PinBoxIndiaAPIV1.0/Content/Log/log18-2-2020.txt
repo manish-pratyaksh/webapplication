@@ -1,0 +1,8 @@
+
+2/18/2020 11:12:28 AM
+Method Name: ImageToBase64 | Contoller Name: Admin Controller 
+2/18/2020 11:12:28 AM|System.IO.FileNotFoundException: F:\Projects\PinBoxIndia\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\content\WhatsAppFile\
+   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at PinBoxIndiaAPIV1._0.Controllers.TestController.ImageToBase64(String _imagePath) in f:\Projects\PinBoxIndia\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\Controllers\TestController.cs:line 46-
+

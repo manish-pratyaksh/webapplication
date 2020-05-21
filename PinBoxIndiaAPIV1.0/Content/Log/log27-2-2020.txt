@@ -1,0 +1,18 @@
+
+2/27/2020 18:51:44
+Method Name: PostGetLoginUser | Contoller Name: Home Controller
+Mobile No:9560722222|2/27/2020 18:51:44|System.NullReferenceException: Object reference not set to an instance of an object.
+   at PinBoxIndiaAPIV1._0.Controllers.LoginController.PostValidateUser(UserLogin objUserLogin) in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\Controllers\LoginController.cs:line 42-
+
+
+2/27/2020 18:53:12
+Method Name: PostGetLoginUser | Contoller Name: Home Controller
+Mobile No:9560722222|2/27/2020 18:53:12|System.NullReferenceException: Object reference not set to an instance of an object.
+   at PinBoxIndiaAPIV1._0.Controllers.LoginController.PostValidateUser(UserLogin objUserLogin) in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\Controllers\LoginController.cs:line 42-
+
+
+2/27/2020 18:55:13
+Method Name: PostGetLoginUser | Contoller Name: Home Controller
+Mobile No:9560722222|2/27/2020 18:55:13|System.NullReferenceException: Object reference not set to an instance of an object.
+   at PinBoxIndiaAPIV1._0.Controllers.LoginController.PostValidateUser(UserLogin objUserLogin)-
+

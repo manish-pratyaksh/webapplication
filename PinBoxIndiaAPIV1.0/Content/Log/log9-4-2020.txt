@@ -1,0 +1,48 @@
+
+4/9/2020 11:14:29
+Method Name: Setforgotpass | Contoller Name:  Login Controller
+:4/9/2020 11:14:29|System.Data.SqlClient.SqlException (0x80131904): Cannot open database "PinBox_India" requested by the login. The login failed.
+Login failed for user 'PINBOXINDIA'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at PinBoxIndiaAPIV1._0.DAL.DataLib.JsonStringExecuteReader(Connection connType, String strSP, SqlParameter[] arrSPParams) in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\DAL\DataLib.cs:line 289
+   at PinBoxIndiaAPIV1._0.DAL.LoginDAL.Setforgotpass(UserRegistration userregistration) in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\DAL\LoginDAL.cs:line 94
+   at PinBoxIndiaAPIV1._0.Controllers.LoginController.Setforgotpass(UserRegistration userregistration) in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\Controllers\LoginController.cs:line 245
+ClientConnectionId:f03ce780-22b3-45d5-8073-3fae3b4d0ab7
+Error Number:4060,State:1,Class:11-
+
+
+4/9/2020 11:29:17
+Method Name: Setforgotpass | Contoller Name:  Login Controller
+:4/9/2020 11:29:17|System.Data.SqlClient.SqlException (0x80131904): Cannot open database "PinBox_India" requested by the login. The login failed.
+Login failed for user 'PINBOXINDIA'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at PinBoxIndiaAPIV1._0.DAL.DataLib.JsonStringExecuteReader(Connection connType, String strSP, SqlParameter[] arrSPParams) in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\DAL\DataLib.cs:line 289
+   at PinBoxIndiaAPIV1._0.DAL.LoginDAL.Setforgotpass(UserRegistration userregistration) in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\DAL\LoginDAL.cs:line 94
+   at PinBoxIndiaAPIV1._0.Controllers.LoginController.Setforgotpass(UserRegistration userregistration) in d:\Projects\PinBoxIndia\TFS\PinBoxIndiaAPIV1.0\PinBoxIndiaAPIV1.0\Controllers\LoginController.cs:line 245
+ClientConnectionId:ebb05e2f-5207-4ecb-a47d-2c6aba36d143
+Error Number:4060,State:1,Class:11-
+

@@ -1,0 +1,43 @@
+
+2/14/2020 10:56:54 AM
+Method Name: PostIncommingMessage 
+
+
+2/14/2020 10:56:54 AM
+Method Name: PostIncommingMessage 
+Request:{"results":[{"from":"385919998888","to":"1234","integrationType":"WHATSAPP","receivedAt":"2018-09-10T11:27:17.980+0000","messageId":"ABEGOFkWA5EBAgo6B82cNiWIAMKC","pairedMessageId":null,"callbackData":null,"message":{"type":"DOCUMENT","caption":"Doculee Image","url":"https://www.fahariyangu.co.ke/Content/productfile/FuneralSamplePolicySchedule.docx","text":null,"longitude":null,"latitude":null,"contacts":null},"contact":null,"price":{"pricePerMessage":"0","currency":"HRK"}}],"messageCount":"1","pendingMessageCount":"0"} 
+
+
+2/14/2020 10:56:54 AM
+Method Name: PostIncommingMessage 
+Request:{"results":[{"from":"385919998888","to":"1234","integrationType":"WHATSAPP","receivedAt":"2018-09-10T11:27:17.980+0000","messageId":"ABEGOFkWA5EBAgo6B82cNiWIAMKC","pairedMessageId":null,"callbackData":null,"message":{"type":"DOCUMENT","caption":"Doculee Image","url":"https://www.fahariyangu.co.ke/Content/productfile/FuneralSamplePolicySchedule.docx","text":null,"longitude":null,"latitude":null,"contacts":null},"contact":null,"price":{"pricePerMessage":"0","currency":"HRK"}}],"messageCount":"1","pendingMessageCount":"0"} 
+
+
+2/14/2020 10:58:10 AM
+Method Name: PostIncommingMessage 
+
+
+2/14/2020 10:58:10 AM
+Method Name: PostIncommingMessage 
+Request:{"results":[{"from":"385919998888","to":"1234","integrationType":"WHATSAPP","receivedAt":"2018-09-10T11:27:17.980+0000","messageId":"ABEGOFkWA5EBAgo6B82cNiWIAMKC","pairedMessageId":null,"callbackData":null,"message":{"type":"DOCUMENT","caption":"Doculee Image","url":"https://www.fahariyangu.co.ke/Content/productfile/FuneralSamplePolicySchedule.docx","text":null,"longitude":null,"latitude":null,"contacts":null},"contact":null,"price":{"pricePerMessage":"0","currency":"HRK"}}],"messageCount":"1","pendingMessageCount":"0"} 
+
+
+2/14/2020 10:58:10 AM
+Method Name: PostIncommingMessage 
+Request:{"results":[{"from":"385919998888","to":"1234","integrationType":"WHATSAPP","receivedAt":"2018-09-10T11:27:17.980+0000","messageId":"ABEGOFkWA5EBAgo6B82cNiWIAMKC","pairedMessageId":null,"callbackData":null,"message":{"type":"DOCUMENT","caption":"Doculee Image","url":"https://www.fahariyangu.co.ke/Content/productfile/FuneralSamplePolicySchedule.docx","text":null,"longitude":null,"latitude":null,"contacts":null},"contact":null,"price":{"pricePerMessage":"0","currency":"HRK"}}],"messageCount":"1","pendingMessageCount":"0"} 
+
+
+2/14/2020 10:59:12 AM
+Method Name: PostIncommingMessage 
+
+
+2/14/2020 10:59:12 AM
+Method Name: PostIncommingMessage 
+Request:{"results":[{"from":"385919998888","to":"1234","integrationType":"WHATSAPP","receivedAt":"2018-09-10T11:27:17.980+0000","messageId":"ABEGOFkWA5EBAgo6B82cNiWIAMKC","pairedMessageId":null,"callbackData":null,"message":{"type":"DOCUMENT","caption":"Doculee Image","url":"https://www.fahariyangu.co.ke/Content/productfile/FuneralSamplePolicySchedule.docx","text":null,"longitude":null,"latitude":null,"contacts":null},"contact":null,"price":{"pricePerMessage":"0","currency":"HRK"}}],"messageCount":"1","pendingMessageCount":"0"} 
+
+
+2/14/2020 10:59:12 AM
+Method Name: PostIncommingMessage 
+Request:{"results":[{"from":"385919998888","to":"1234","integrationType":"WHATSAPP","receivedAt":"2018-09-10T11:27:17.980+0000","messageId":"ABEGOFkWA5EBAgo6B82cNiWIAMKC","pairedMessageId":null,"callbackData":null,"message":{"type":"DOCUMENT","caption":"Doculee Image","url":"https://www.fahariyangu.co.ke/Content/productfile/FuneralSamplePolicySchedule.docx","text":null,"longitude":null,"latitude":null,"contacts":null},"contact":null,"price":{"pricePerMessage":"0","currency":"HRK"}}],"messageCount":"1","pendingMessageCount":"0"} 
+Response :caption:Doculee Image |url:https://www.fahariyangu.co.ke/Content/productfile/FuneralSamplePolicySchedule.docx| FileName:FuneralSamplePolicySchedule.docx 
+
